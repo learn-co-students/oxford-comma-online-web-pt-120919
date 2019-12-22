@@ -1,10 +1,4 @@
-oxford_comma(array)
-# Array doesn't need to be provided externally, is already defined
-# Split into a string using join method
-# Push "and" to be the second to last element in the array
-
-
-array = ["apple"]
+array = ["kiwi,starfruit,duran"]
 def oxford_comma(array)
   if array.length == 2
   array[-2] << " and "
@@ -18,4 +12,3 @@ def oxford_comma(array)
 end
 
 oxford_comma(array)
-end
